@@ -180,3 +180,11 @@ body {
         padding-block: 10px 25px;
     }
 }
+
+@media (max-width: 450px) {
+    .profile-account {
+        padding-inline: 10px;
+        padding-block: 10px;
+        border-radius: 1rem;
+    }
+}
