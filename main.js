@@ -49,7 +49,8 @@ const userLinks = [
 for (let i = 0; i < 5; i++) {
     const anchorContainer = document.createElement('a');
     anchorContainer.classList.add('account');
-    anchorContainer.setAttribute('href', userLinks[i].socialMedia)
+    anchorContainer.setAttribute('href', userLinks[i].socialMedia);
+    anchorContainer.setAttribute('target', '_blank')
     anchorContainer.innerHTML = `
     <div class="account-inner">
         <div class="account-pic">
