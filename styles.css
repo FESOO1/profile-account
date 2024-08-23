@@ -13,6 +13,7 @@
 
 body {
     background: url(https://framerusercontent.com/images/PTYt6o2b0TlzkrA4rf2oJnydqis.jpg) no-repeat;
+    /* background: url(https://images.unsplash.com/photo-1723429676019-d52dea259562?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat; */
     background-size: cover;
     padding-block: 80px;
 }
@@ -26,7 +27,7 @@ body {
 /* PROFILE ACCOUNT */
 
 .profile-account {
-    width: 500px;
+    width: 600px;
     background: radial-gradient(circle at 50% 0%, rgba(23, 23, 23, 0.614), rgb(13,13,13));
     backdrop-filter: blur(10px);
     padding-inline: 35px;
@@ -34,8 +35,8 @@ body {
     border-radius: 2rem;
     border-top: 1px solid rgba(255,255,255,0.4);
     border-bottom: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-
 
 /* PROFILE PICTURE */
 
@@ -111,7 +112,8 @@ body {
     text-decoration: none;
     padding-inline: 7px 20px;
     border-top: 1px solid rgba(255,255,255,0.1);
-    border-bottom: 1px solid rgba(255,255,255,0.03);
+    /* border-bottom: 1px solid rgba(255,255,255,0.03); */
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.356);
     transition: scale 300ms;
 }
 
