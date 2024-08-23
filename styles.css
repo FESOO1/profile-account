@@ -187,4 +187,7 @@ body {
         padding-block: 10px;
         border-radius: 1rem;
     }
+    .account {
+        column-gap: 15px;
+    }
 }
