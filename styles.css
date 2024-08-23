@@ -31,7 +31,7 @@ body {
     background: radial-gradient(circle at 50% 0%, rgba(23, 23, 23, 0.614), rgb(13,13,13));
     backdrop-filter: blur(10px);
     padding-inline: 35px;
-    padding-block: 10px 35px;
+    padding-block: 10px 40px;
     border-radius: 2rem;
     border-top: 1px solid rgba(255,255,255,0.4);
     border-bottom: 1px solid rgba(255,255,255,0.02);
@@ -164,4 +164,19 @@ body {
 
 .account:hover .account-svg  {
     color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 650px) {
+    .profile-account {
+        width: 95%;
+    }
+}
+
+@media (max-width: 550px) {
+    .profile-account {
+        padding-inline: 20px;
+        padding-block: 10px 25px;
+    }
 }
